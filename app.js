@@ -2,7 +2,8 @@ const app = Vue.createApp({
   data() {
     return {
       inputClass: '',
-      paragraphIsVisibile: true
+      paragraphIsVisibile: true,
+      inputBackgroundColor: ''
     };
   },
   methods: {
